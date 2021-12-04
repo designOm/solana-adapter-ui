@@ -1,0 +1,88 @@
+/**
+ *
+ * Color Plates
+ *
+ */
+
+$bgColor: var(--bgColor);
+$primaryColor: var(--primaryColor);
+$secondaryColor: var(--secondaryColor);
+$darkColor: var(--darkColor);
+$textOnBg: var(--textOnBg);
+$lightGray: var(--lightGray);
+$darkGray: var(--darkGray);
+$fontColor: var(--fontColor);
+$gradientOne: var(--gradientOne);
+$gradientTwo: var(--gradientTwo);
+$footerColor: var(--footerColor);
+$lighterDark: var(--lighterDark);
+$sectionBgOne: var(--sectionBgOne);
+$sectionBgTwo: var(--sectionBgTwo);
+
+/**
+ *
+ * Typography
+ *
+ */
+$typeSizes: (
+	"h1": (
+		"fs": 3rem,
+		"fw": 800,
+	),
+	"h2": (
+		"fs": 2.25rem,
+		"fw": 800,
+	),
+	"h3": (
+		"fs": 1.5rem,
+		"fw": 800,
+	),
+	"h4": (
+		"fs": 1.25rem,
+		"fw": 600,
+	),
+	"body1": (
+		"fs": 1.063rem,
+		"fw": 400,
+	),
+	"body2": (
+		"fs": 0.8125rem,
+		"fw": 400,
+	),
+	"title1": (
+		"fs": 1.063rem,
+		"fw": 600,
+	),
+	"title2": (
+		"fs": 0.8125rem,
+		"fw": 600,
+	),
+	"button1": (
+		"fs": 1.063rem,
+		"fw": 500,
+	),
+	"button2": (
+		"fs": 0.875rem,
+		"fw": 500,
+	),
+	"caption": (
+		"fs": 0.9375rem,
+		"fw": 400,
+	),
+	"overline": (
+		"fs": 0.75rem,
+		"fw": 400,
+	),
+);
+$fontFamily: var(--font-family);
+
+/**
+ *
+ * Spacing
+ *
+ */
+
+$Spacing: (
+	"heading-margin": 1.5rem,
+	"body-margin": 0.9375rem,
+);

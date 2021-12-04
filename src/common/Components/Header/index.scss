@@ -1,0 +1,133 @@
+@import "../../../assets/styles/variables";
+
+.apexDucks__header {
+	height: 70px;
+	background-color: $bgColor;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	&__row {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		&--search {
+			margin-left: 36px;
+		}
+		&--utilities {
+			margin-left: auto;
+			display: flex;
+			align-items: center;
+		}
+	}
+	&__browseButton {
+		display: inline-flex;
+		button {
+			cursor: pointer;
+			background-color: transparent;
+			border: none;
+			outline: none;
+			padding: 7px 18px;
+			padding-left: 0;
+			margin-left: 18px;
+			span {
+				color: $lighterDark;
+			}
+		}
+	}
+}
+.browseSubmenu {
+	&__base {
+		background-color: $bgColor;
+		display: flex;
+		flex-direction: column;
+		border-radius: 0 0 6px 6px;
+		min-width: 150px;
+	}
+	&__item {
+		padding: 10px 20px;
+		color: $fontColor;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		border-bottom: 1px solid $lightGray;
+		img {
+			margin-right: 10px;
+		}
+		&:hover {
+			background-color: $lightGray;
+			color: $secondaryColor;
+		}
+	
+		&:last-child {
+			border-radius: inherit;
+			border-bottom: none;
+		}
+	}
+}
+.ApexSearch {
+	$height: 36px;
+	$br: 20px;
+	&__base {
+		display: inline-flex;
+		align-items: center;
+		border: 2px solid $darkGray;
+		background-color: $lightGray;
+		border-radius: $br;
+		color: $fontColor;
+	}
+	&__input {
+		padding: 6px 15px;
+		padding-left: 0;
+		color: $fontColor;
+		font-size: 1rem;
+		height: $height;
+	}
+	&__icon {
+		width: auto;
+		padding-left: 20px;
+		padding-right: 10px;
+		height: $height;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: $br 0 0 $br;
+	}
+}
+
+.afterAuthUserButton {
+	display: flex;
+	align-items: center;
+	& > span {
+		display: inline-block;
+	}
+	&__dp {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		border: 2px solid $fontColor;
+		margin-right: -10px;
+		z-index: 1;
+	}
+	&__meta {
+		background-color: $darkGray;
+		display: flex!important;
+		flex-flow: column;
+		align-items: flex-start;
+		padding: 2px 0;
+		padding-left: 15px;
+		padding-right: 20px;
+		border-radius: 0 35px 35px 0;
+		& > span {
+			line-height: 1.2!important;
+			font-weight: bold;
+			color: $fontColor;
+			&:first-child {
+				color: $lighterDark;
+			}
+		}
+	}
+}

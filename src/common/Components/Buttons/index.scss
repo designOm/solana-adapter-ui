@@ -1,0 +1,25 @@
+.GradientBorderBUtton__base {
+	display: inline-flex;
+}
+
+.favButton {
+	$fontSize: 0.975rem;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 50px;
+	padding: 9px 12px;
+	border: none;
+	outline: none;
+	&__icon {
+		margin-right: 7px;
+		svg {
+			width: $fontSize;
+			height: $fontSize;
+		}
+	}
+	&__label {
+		font-size: $fontSize;
+	}
+}
