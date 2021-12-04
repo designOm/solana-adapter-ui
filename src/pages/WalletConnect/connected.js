@@ -4,7 +4,7 @@ import { styled } from '@mui/system'
 export default function Connected() {
   return (
     <StyledDiv>
-      <h1>Wallet Connected</h1>
+      <h1>Wallet Connected Sucessfully</h1>
     </StyledDiv>
   )
 }
