@@ -1,0 +1,5 @@
+//! Handling click on wallet
+
+//! get user of wallets
+
+//! handling Error
