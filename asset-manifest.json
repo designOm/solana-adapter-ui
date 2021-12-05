@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/solana-adapter-ui/static/css/main.33495082.chunk.css",
-    "main.js": "/solana-adapter-ui/static/js/main.952eb94b.chunk.js",
-    "main.js.map": "/solana-adapter-ui/static/js/main.952eb94b.chunk.js.map",
+    "main.js": "/solana-adapter-ui/static/js/main.124883d4.chunk.js",
+    "main.js.map": "/solana-adapter-ui/static/js/main.124883d4.chunk.js.map",
     "runtime-main.js": "/solana-adapter-ui/static/js/runtime-main.bd25e7ef.js",
     "runtime-main.js.map": "/solana-adapter-ui/static/js/runtime-main.bd25e7ef.js.map",
     "static/js/2.7f95b32e.chunk.js": "/solana-adapter-ui/static/js/2.7f95b32e.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/solana-adapter-ui/index.html",
     "static/css/main.33495082.chunk.css.map": "/solana-adapter-ui/static/css/main.33495082.chunk.css.map",
     "static/js/2.7f95b32e.chunk.js.LICENSE.txt": "/solana-adapter-ui/static/js/2.7f95b32e.chunk.js.LICENSE.txt",
-    "static/js/main.952eb94b.chunk.js.LICENSE.txt": "/solana-adapter-ui/static/js/main.952eb94b.chunk.js.LICENSE.txt",
+    "static/js/main.124883d4.chunk.js.LICENSE.txt": "/solana-adapter-ui/static/js/main.124883d4.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/solana-adapter-ui/static/media/chevron-right.af156e3e.svg",
     "static/media/fi-rr-copy-alt-1.svg": "/solana-adapter-ui/static/media/fi-rr-copy-alt-1.93615552.svg",
     "static/media/walletDisconnect.svg": "/solana-adapter-ui/static/media/walletDisconnect.e7dd0eb6.svg"
@@ -21,6 +21,6 @@
     "static/js/runtime-main.bd25e7ef.js",
     "static/js/2.7f95b32e.chunk.js",
     "static/css/main.33495082.chunk.css",
-    "static/js/main.952eb94b.chunk.js"
+    "static/js/main.124883d4.chunk.js"
   ]
 }
