@@ -6,7 +6,7 @@ import { Layout, NotFound, WalletConnect } from "../pages";
 
 export default function AppRoutes() {
 	return <Routes>
-		<Route path="/" element={<Layout />}>
+		<Route path="/solana-adapter-ui/" element={<Layout />}>
 			<Route index element={<WalletConnect />} />
 		</Route>
 
